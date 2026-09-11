@@ -26,9 +26,8 @@ console.log(name.toLowerCase());
 console.log(name.includes("alam"));
 console.log(name.charAt(3));
 console.log(name.slice(3, 7));
-//onsole.log(name.concat("alam"));
-
-// console.log(name.repeat(4));
+onsole.log(name.concat("alam"));
+console.log(name.repeat(4));
 const nam = "alam";
 const roll = 61;
 console.log(`my name is ${nam} and my roll no ${roll}`);
