@@ -67,6 +67,16 @@ function one (){
       
       two()
 }
-one()
+one();
 
+//Name IIFE:(function(){})()
+(function nn(){
+    console.log(" noor hasan");
+    
+})();
 
+//simple iife arrow function
+((name)=>{
+    console.log(`my name is ${name}`);
+    
+})("noor alam")
